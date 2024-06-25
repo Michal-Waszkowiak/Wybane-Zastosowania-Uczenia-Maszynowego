@@ -60,3 +60,46 @@ Plik zawierający uzyskane predykcje.
 #### 3.8 `Waszkowiak_Michal.py`
 
 Plik, który wykonuje pełną funkcjonalność projektu. Znajduje się w nim predykcja najlepszych piątek (domyślnie ustawiona jest na sezon 2023/24, jednak można to zmienić, wystarczy wpisać w nawiasy `predict_teams()` `season_test="interesujący nas sezon"`). Na końcu programu dochodzi do zapisu uzyskanych predykcji do pliku `.json`.
+
+#### 3.9 Uzyskane wyniki dla sezonu 2023/2024
+
+```
+{
+    "first all-nba team": [
+        "Luka Doncic",
+        "Nikola Jokic",
+        "Shai Gilgeous-Alexander",
+        "Jalen Brunson",
+        "Giannis Antetokounmpo"
+    ],
+    "second all-nba team": [
+        "Jayson Tatum",
+        "LeBron James",
+        "Damian Lillard",
+        "Kevin Durant",
+        "Anthony Edwards"
+    ],
+    "third all-nba team": [
+        "Stephen Curry",
+        "Devin Booker",
+        "Tyrese Haliburton",
+        "Tyrese Maxey",
+        "De'Aaron Fox"
+    ],
+    "first rookie all-nba team": [
+        "Victor Wembanyama",
+        "Chet Holmgren",
+        "Brandon Miller",
+        "Brandin Podziemski",
+        "Jaime Jaquez Jr."
+    ],
+    "second rookie all-nba team": [
+        "Amen Thompson",
+        "Keyonte George",
+        "Dereck Lively II",
+        "Cason Wallace",
+        "Trayce Jackson-Davis"
+    ]
+}
+```
+
